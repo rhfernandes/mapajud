@@ -1,3 +1,5 @@
+![logo](https://user-images.githubusercontent.com/37173966/120087481-d08aab00-c0be-11eb-85af-0202b0f24bd3.jpeg)<a href="http://mapajud.pjexperience.com.br">MapaJud</a>
+
 # MapaJud   
 LIODS CNJ - Inovação, Inteligência e Objetivos de Desenvolvimento Sustentável
 
@@ -41,7 +43,7 @@ Não, a ideia é totalmente inovadora tendo subsidio básico com o i3Geo do INCR
 Sim, nós desenvolvemos uma API que poderá ser consumida em qualquer aplicação python tanto para visualização quanto para fins de exploração de dados usando técnicas de predição 
 
 ## Sobre
-O MapaJud foi desenvolvido pela equipe interdiciplinar orientada pelo desafio 2 do Hackathon Liods/CNJ envolvendos colaboradores da área juridica, desenvolvedores programação e da inteligência artificial. 
+O MapaJud foi desenvolvido pela equipe interdiciplinar orientada pelo desafio 2 do Hackathon Liods/CNJ envolvendos colaboradores da área juridica, desenvolvedores programação e da inteligência artificial.  Para acessa basta clicar em <a href="http://mapajud.pjexperience.com.br">MapaJud</a>
 
 ## Linceças
 
