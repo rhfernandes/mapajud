@@ -1,21 +1,50 @@
-# MapaJud   ![logoMapaJud]
+# MapaJud   
 LIODS CNJ - Inovação, Inteligência e Objetivos de Desenvolvimento Sustentável
-  
-  <p align="center">
- <a href="#Introdução">Introdução</a> •
- <a href="#roadmap">Roadmap</a> • 
- <a href="#tecnologias">Tecnologias</a> • 
- <a href="#contribuicao">Contribuição</a> • 
- <a href="#licenc-a">Licença</a> • 
- <a href="#autor">Autor</a>
-</p>
 
-##Descrição do Projeto
-  MapaJud é uma aplicação tecnológica interoperável que integra as bases de dados de georeferenciamento das terras públicas ou não, utilizando os polígonos disponíveis no INCRA (SIGEF), CAR, SFB e csv do SireneJud e indica o número unico dos processos judiciais por meio de uma IA. 
+
+[![Build Status](https://travis-ci.org/googlemaps/google-maps-services-python.svg?branch=master)](https://travis-ci.org/googlemaps/google-maps-services-python)
+[![test](https://sonar/test_success_density/:component?server=https%3A%2F%2Fsonarcloud.io&sonarVersion=4.2)
+[![PyPI version](https://badge.fury.io/py/googlemaps.svg)](https://badge.fury.io/py/googlemaps)
+![PyPI - Downloads](https://img.shields.io/pypi/dd/googlemaps)
+![GitHub contributors](https://img.shields.io/github/contributors/googlemaps/google-maps-services-python)
+
+
+# Sumário
+1. [Introdução](#introducao)
+2. [Especificações](#especificacoes)
+3. [Por que Usar?](#porqueusar)
+4. [Perguntas Frequentes](#perguntasfrequentes)
+5. [Sobre](#sobre)
+6. [Licenças](#licencas)
+
+
+## Introdução
+  MapaJud indexa o número único do processo de terras públicas ao código do SireneJud exibindo inclusive outras bases de dados de georreferenciamento. 
+  é uma aplicação tecnológica interoperável que integra as bases de dados de georreferenciamento das terras públicas ou não, utilizando os polígonos disponíveis no INCRA, 
+ Sistema de Gestão Fundiária (SIGEF), Cadastro Ambiental Rural (CAR), Serviço Florestal Brasileiro (SFB) e o arquivo CSV do SireneJud. Indica o número único dos processos judiciais por meio de uma IA.
   
-### Funcionalidades
+## Especificações
 1. MapaJud é capaz de vincular a uma área os códigos do SIGEF, CAR, SireneJud, se houver. 
 2. Lê as peças processuais e extrai dados como: SIGEF e CAR e relaciona estes códigos com os já regitrados na base dos poligonos, tornando possível georreferenciar o local apresentado na peça processual, vinculando o número do processo à área objeto da ação. 
-3. Com a leitura das peças, o MapaJud é capaz de indicar a localização geográfica em um mapa e listar os processos envolvendo a área alvo apontando todos os códigos cadastrados na área traçada pelo polígono, incluindo o código SireneJud.  
+3. Com a leitura das peças, o MapaJud é capaz de indicar a localização geográfica em um mapa e listar os processos envolvendo a área alvo, apontando todos os códigos cadastrados na área traçada pelo polígono, incluindo o código SireneJud.   
+
+## Por que usar?
+O MapaJud auxilia não só o poder judiciário, como também as instituições envolvidas com a manutenção, melhoria e proteção do meio ambiente. Uma vez que a aplicação converge todos os códigos, podendo cruzar informações relevantes sobre áreas públicas. Além de indicar a reicidência de danos ou crimes cometidos no poligono. 
+
+## Perguntas Frequentes
+O MapaJud foi inspirado em algum outro projeto?
+
+Não, a ideia é totalmente inovadora tendo subsidio básico com o i3Geo do INCRA. 
+
+É possivel implentar o MapaJud ao meu aplicativo?
+
+Sim, nós desenvolvemos uma API que poderá ser consumida em qualquer aplicação python tanto para visualização quanto para fins de exploração de dados usando técnicas de predição 
+
+## Sobre
+O MapaJud foi desenvolvido pela equipe interdiciplinar orientada pelo desafio 2 do Hackathon Liods/CNJ envolvendos colaboradores da área juridica, desenvolvedores programação e da inteligência artificial. 
+
+## Linceças
+
+
 
 
