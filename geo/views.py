@@ -288,7 +288,7 @@ class Mapa(TemplateView):
     
         municipios = gp.read_file('data/municipios/MT_Municipios_2020.shp')   
         sigef = gp.read_file('data/sigef/Sigef_Brasil_MT.shp')
-        area_imovel = gp.read_file('data/area/AREA_IMOVEL.shp')
+        area_imovel = gp.read_file('data/area/CarSireneDiamantino.shp')
         terra_indigena = gp.read_file('data/terra_indigena/ti_sirgas.shp')
         app = gp.read_file('data/app/APP.shp')
         app_alto = gp.read_file('data/app_altoParaguai/APP.shp')
