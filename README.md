@@ -5,10 +5,7 @@ LIODS CNJ - Inovação, Inteligência e Objetivos de Desenvolvimento Sustentáve
 
 
 [![Build Status](https://travis-ci.org/googlemaps/google-maps-services-python.svg?branch=master)](https://travis-ci.org/googlemaps/google-maps-services-python)
-[![test](https://sonar/test_success_density/:component?server=https%3A%2F%2Fsonarcloud.io&sonarVersion=4.2)
 [![PyPI version](https://badge.fury.io/py/googlemaps.svg)](https://badge.fury.io/py/googlemaps)
-![PyPI - Downloads](https://img.shields.io/pypi/dd/googlemaps)
-![GitHub contributors](https://img.shields.io/github/contributors/googlemaps/google-maps-services-python)
 
 
 # Sumário
@@ -45,8 +42,8 @@ Sim, nós desenvolvemos uma API que poderá ser consumida em qualquer aplicaçã
 ## Sobre
 O MapaJud foi desenvolvido pela equipe interdiciplinar orientada pelo desafio 2 do Hackathon Liods/CNJ envolvendos colaboradores da área juridica, desenvolvedores programação e da inteligência artificial.  Para acessa basta clicar em <a href="http://mapajud.pjexperience.com.br">MapaJud</a>
 
-## Linceças
-
+## Licenças
+Para o desenvolvimento desta aplicação utilizamos Python que é um software de código aberto bem como o Django.
 
 
 
