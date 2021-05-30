@@ -1,0 +1,79 @@
+folium.Marker([-15.5989, -56.0949],icon=folium.Icon(color='red', icon='info-sign' ),popup="Mato Grosso Cuiabá").add_to(m)  
+folium.Marker([-15.7921009944081,-58.2359744706404],icon=folium.Icon(color='green', icon='tree',prefix='fa' ),popup="P.A. SILVIO RODRIGUES").add_to(m)  
+folium.Marker([-13.9912024917136,-55.1926451634958],icon=folium.Icon(color='green', icon='tree',prefix='fa' ),popup="GLEBA BEIJA FLOR").add_to(m)  
+folium.PolyLine(rota).add_to(m)
+m.add_child(folium.LatLngPopup())
+
+rota=[
+        [-13.9912024917136,-55.1926451634958],
+        [-15.7921009944081,-58.2359744706404]
+        ]
+
+//////
+# print('Municipios')
+# print(gdf_muni.head(n=30))
+# print('Florestas')
+# print(gdf.head(n=40))
+# print(gdf[gdf.OBJECTID == 175])    
+# print(gdf_muni[gdf_muni.NM_MUN == 'Chapada dos Guimarães']) 
+
+
+//////
+# municipios =gdf_muni[gdf_muni.NM_MUN == 'Chapada dos Guimarães'] 
+# florestas = gdf_florestas[gdf_florestas.OBJECTID == 175]  
+# folium.GeoJson(data=florestas["geometry"],style_function=lambda x:style2).add_to(m)
+# folium.GeoJson(data=municipios["geometry"]).add_to(m)  
+
+
+//////
+print(type(gdf_florestas.iloc[0].geometry))  
+print(type(gdf_muni.iloc[0].geometry))
+print('Municipios')
+print(gdf_muni.iloc[0].geometry.contains((-13.9912024917136,-55.1926451634958))) 
+
+
+//////
+try:
+                for poly in muiltpoly:
+                    if poly.within(ponto):
+                        print(poly)
+            except:
+                if muiltpoly.within(ponto):
+                    print(muiltpoly)
+//////
+51.5765009 longe
+13.5952804 latitude
+
+
+if p.sicar !="":
+            cod_cidade = p.sicar[3:10]
+            geo_area_imovel = area_imovel[area_imovel['COD_IMOVEL']==p.sicar] 
+            
+            if is_empty(geo_area_imovel):
+                mask_area_imovel = geo_area_imovel   
+                 
+            geo_cidade = municipios[municipios['CD_MUN']==cod_cidade]
+            if is_empty(geo_cidade):
+                mask_cidade =geo_cidade
+            geo_sigef = sigef[sigef['municipio_']==cod_cidade]
+            if is_empty(geo_sigef):
+                mask_sigef =geo_sigef['geometry'][0]
+                
+        if p.cod_municipio_ibge!="" :
+            geo_cidade = municipios[municipios['CD_MUN']==p.cod_municipio_ibge]     
+            if is_empty(geo_cidade):
+                mask_cidade=geo_cidade['geometry']
+
+
+ if is_empty(geo_cidade):
+                mask_cidade=True
+                geo_sigef = sigef[sigef['municipio_']==p.cod_municipio_ibge]
+                if is_empty(geo_sigef):
+                    mask_sigef =True   
+                    p.cod_municipio_ibge
+                for cod_area in area_imovel['COD_IMOVEL']:
+                   if cod_area[3:10] ==p.cod_municipio_ibge: 
+                        geo_area_imovel = area_imovel[area_imovel['COD_IMOVEL']==cod_area] 
+                        if is_empty(geo_area_imovel):
+                            mask_area_imovel=geo_area_imovel['geometry'][0]
+                            break
