@@ -18,10 +18,8 @@ LIODS CNJ - Inovação, Inteligência e Objetivos de Desenvolvimento Sustentáve
 
 
 ## Introdução
-  MapaJud indexa o número único do processo de terras públicas ao código do SireneJud exibindo inclusive outras bases de dados de georreferenciamento. 
-  é uma aplicação tecnológica interoperável que integra as bases de dados de georreferenciamento das terras públicas ou não, utilizando os polígonos disponíveis no INCRA, 
- Sistema de Gestão Fundiária (SIGEF), Cadastro Ambiental Rural (CAR), Serviço Florestal Brasileiro (SFB) e o arquivo CSV do SireneJud. Indica o número único dos processos judiciais por meio de uma IA.
-  
+  MapaJud indexa o número único do processo de terras públicas ao código do SireneJud exibindo inclusive outras bases de dados de georreferenciamento como INCRA, 
+ Sistema de Gestão Fundiária (SIGEF), Cadastro Ambiental Rural (CAR), Serviço Florestal Brasileiro (SFB). 
 ## Especificações
 1. MapaJud é capaz de vincular a uma área os códigos do SIGEF, CAR, SireneJud, se houver. 
 2. Lê as peças processuais e extrai dados como: SIGEF e CAR e relaciona estes códigos com os já regitrados na base dos poligonos, tornando possível georreferenciar o local apresentado na peça processual, vinculando o número do processo à área objeto da ação. 
@@ -38,13 +36,13 @@ Não, a ideia é totalmente inovadora tendo subsidio básico com o i3Geo do INCR
 
 É possivel implentar o MapaJud ao meu aplicativo?
 
-Sim, nós desenvolvemos uma API que poderá ser consumida em qualquer aplicação python tanto para visualização quanto para fins de exploração de dados usando técnicas de predição 
+Sim, nós desenvolvemos uma API que poderá ser consumida em qualquer aplicação python tanto para visualização quanto para fins de exploração de dados usando técnicas de predição. 
 
 ## Sobre
 O MapaJud foi desenvolvido pela equipe interdiciplinar orientada pelo desafio 2 do Hackathon Liods/CNJ envolvendos colaboradores da área juridica, desenvolvedores programação e da inteligência artificial.  Para acessa basta clicar em <a href="http://mapajud.pjexperience.com.br">MapaJud</a>.
 
 ## Licenças
- O desenvolvimento do MapaJud utilizou em sua integralidade aplicação livre Open Source como  Python e Django.
+ O desenvolvimento do MapaJud utilizou em sua integralidade aplicação livre Open Source como CSLL, Python e Django.
 
 
 
