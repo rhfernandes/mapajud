@@ -27,6 +27,8 @@ LIODS CNJ - Inovação, Inteligência e Objetivos de Desenvolvimento Sustentáve
 1. MapaJud é capaz de vincular a uma área os códigos do SIGEF, CAR, SireneJud, se houver. 
 2. Lê as peças processuais e extrai dados como: SIGEF e CAR e relaciona estes códigos com os já regitrados na base dos poligonos, tornando possível georreferenciar o local apresentado na peça processual, vinculando o número do processo à área objeto da ação. 
 3. Com a leitura das peças, o MapaJud é capaz de indicar a localização geográfica em um mapa e listar os processos envolvendo a área alvo, apontando todos os códigos cadastrados na área traçada pelo polígono, incluindo o código SireneJud.  Por se tratar de um protótipo e para não sobrecarregar o tempo de excução do MapaJud convertemos os pdf em txt para então fazer a leitura das informações necessária para a integração da base de dados. 
+4. Sua arquitetura esta descrita na figura a seguir:
+![arquitetura](https://user-images.githubusercontent.com/37173966/120129534-8a0a7e80-c19a-11eb-912a-fe08e8a806fb.jpeg)
 
 ## Por que usar?
 O MapaJud auxilia não só o poder judiciário, como também as instituições envolvidas com a manutenção, melhoria e proteção do meio ambiente. Uma vez que a aplicação converge todos os códigos, podendo cruzar informações relevantes sobre áreas públicas. Além de indicar a reicidência de danos ou crimes cometidos no poligono. Uma breve apresentação da ferramenta pode ser vista no <a href="https://www.youtube.com/watch?v=3l81MM-RJDg">video</a>.
