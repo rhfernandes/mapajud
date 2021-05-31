@@ -19,7 +19,9 @@ LIODS CNJ - Inovação, Inteligência e Objetivos de Desenvolvimento Sustentáve
 
 ## Introdução
   MapaJud indexa o número único do processo de terras públicas ao código do SireneJud exibindo inclusive outras bases de dados de georreferenciamento como INCRA, 
- Sistema de Gestão Fundiária (SIGEF), Cadastro Ambiental Rural (CAR), Serviço Florestal Brasileiro (SFB). 
+ Sistema de Gestão Fundiária (SIGEF), Cadastro Ambiental Rural (CAR), Serviço Florestal Brasileiro (SFB), e se aprenta como demonstrado da figura.
+ 
+ ![tela_Inicial](https://user-images.githubusercontent.com/37173966/120129204-eb7e1d80-c199-11eb-863a-42111f7d8217.png)
 
 ## Especificações
 1. MapaJud é capaz de vincular a uma área os códigos do SIGEF, CAR, SireneJud, se houver. 
