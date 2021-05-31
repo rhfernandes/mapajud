@@ -41,7 +41,7 @@ Não, a ideia é totalmente inovadora tendo subsidio básico com o i3Geo do INCR
 Sim, nós desenvolvemos uma API que poderá ser consumida em qualquer aplicação python tanto para visualização quanto para fins de exploração de dados usando técnicas de predição 
 
 ## Sobre
-O MapaJud foi desenvolvido pela equipe interdiciplinar orientada pelo desafio 2 do Hackathon Liods/CNJ envolvendos colaboradores da área juridica, desenvolvedores programação e da inteligência artificial.  Para acessa basta clicar em <a href="http://mapajud.pjexperience.com.br">MapaJud</a>
+O MapaJud foi desenvolvido pela equipe interdiciplinar orientada pelo desafio 2 do Hackathon Liods/CNJ envolvendos colaboradores da área juridica, desenvolvedores programação e da inteligência artificial.  Para acessa basta clicar em <a href="http://mapajud.pjexperience.com.br">MapaJud</a>.
 
 ## Licenças
  O desenvolvimento do MapaJud utilizou em sua integralidade aplicação livre Open Source como  Python e Django.
