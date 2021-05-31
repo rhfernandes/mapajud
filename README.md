@@ -20,6 +20,7 @@ LIODS CNJ - Inovação, Inteligência e Objetivos de Desenvolvimento Sustentáve
 ## Introdução
   MapaJud indexa o número único do processo de terras públicas ao código do SireneJud exibindo inclusive outras bases de dados de georreferenciamento como INCRA, 
  Sistema de Gestão Fundiária (SIGEF), Cadastro Ambiental Rural (CAR), Serviço Florestal Brasileiro (SFB). 
+
 ## Especificações
 1. MapaJud é capaz de vincular a uma área os códigos do SIGEF, CAR, SireneJud, se houver. 
 2. Lê as peças processuais e extrai dados como: SIGEF e CAR e relaciona estes códigos com os já regitrados na base dos poligonos, tornando possível georreferenciar o local apresentado na peça processual, vinculando o número do processo à área objeto da ação. 
@@ -27,6 +28,7 @@ LIODS CNJ - Inovação, Inteligência e Objetivos de Desenvolvimento Sustentáve
 
 ## Por que usar?
 O MapaJud auxilia não só o poder judiciário, como também as instituições envolvidas com a manutenção, melhoria e proteção do meio ambiente. Uma vez que a aplicação converge todos os códigos, podendo cruzar informações relevantes sobre áreas públicas. Além de indicar a reicidência de danos ou crimes cometidos no poligono. Uma breve apresentação da ferramenta pode ser vista no <a href="https://www.youtube.com/watch?v=3l81MM-RJDg">video</a>.
+
 
 ## Perguntas Frequentes
 O MapaJud foi inspirado em algum outro projeto?
@@ -42,7 +44,11 @@ Sim, nós desenvolvemos uma API que poderá ser consumida em qualquer aplicaçã
 O MapaJud foi desenvolvido pela equipe interdiciplinar orientada pelo desafio 2 do Hackathon Liods/CNJ envolvendos colaboradores da área juridica, desenvolvedores programação e da inteligência artificial.  Para acessa basta clicar em <a href="http://mapajud.pjexperience.com.br">MapaJud</a>.
 
 ## Licenças
- O desenvolvimento do MapaJud utilizou em sua integralidade aplicação livre Open Source como CSLL, Python e Django.
-
+ O desenvolvimento do MapaJud utilizou em sua integralidade aplicações livre Open Source como: 
+ <a ref = "https://github.com/python-visualization/folium/blob/master/LICENSE.txt">Folium</a>
+ <a ref ="https://github.com/geopandas/geopandas/blob/master/LICENSE.txt">Geopandas</a>
+ <a ref = "https://github.com/dbashford/textract/blob/master/LICENSE">TEXTRACT</a>
+ <a ref="https://docs.python.org/3/license.html">Python</a>
+ <a ref="https://www.gnu.org/licenses/licenses.pt-br.html">HTML, CSS e JavaScript </a>
 
 
