@@ -28,6 +28,7 @@ LIODS CNJ - Inovação, Inteligência e Objetivos de Desenvolvimento Sustentáve
 2. Lê as peças processuais e extrai dados como: SIGEF e CAR e relaciona estes códigos com os já regitrados na base dos poligonos, tornando possível georreferenciar o local apresentado na peça processual, vinculando o número do processo à área objeto da ação. 
 3. Com a leitura das peças, o MapaJud é capaz de indicar a localização geográfica em um mapa e listar os processos envolvendo a área alvo, apontando todos os códigos cadastrados na área traçada pelo polígono, incluindo o código SireneJud.  Por se tratar de um protótipo e para não sobrecarregar o tempo de excução do MapaJud convertemos os pdf em txt para então fazer a leitura das informações necessária para a integração da base de dados. 
 4. Sua arquitetura esta descrita na figura a seguir:
+
 ![arquitetura (1)](https://user-images.githubusercontent.com/37173966/120129753-ec637f00-c19a-11eb-8df2-be6a9f7fde69.jpeg)
 
 ## Por que usar?
