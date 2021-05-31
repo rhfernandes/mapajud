@@ -45,10 +45,10 @@ O MapaJud foi desenvolvido pela equipe interdiciplinar orientada pelo desafio 2 
 
 ## Licenças
  O desenvolvimento do MapaJud utilizou em sua integralidade aplicações livre Open Source como: 
- <a ref = "https://github.com/python-visualization/folium/blob/master/LICENSE.txt">Folium</a>
- <a ref ="https://github.com/geopandas/geopandas/blob/master/LICENSE.txt">Geopandas</a>
- <a ref = "https://github.com/dbashford/textract/blob/master/LICENSE">TEXTRACT</a>
- <a ref="https://docs.python.org/3/license.html">Python</a>
- <a ref="https://www.gnu.org/licenses/licenses.pt-br.html">HTML, CSS e JavaScript </a>
+ <a href="https://github.com/python-visualization/folium/blob/master/LICENSE.txt">Folium</a>
+ <a href="https://github.com/geopandas/geopandas/blob/master/LICENSE.txt">Geopandas</a>
+ <a href="https://github.com/dbashford/textract/blob/master/LICENSE">TEXTRACT</a>
+ <a href="https://docs.python.org/3/license.html">Python</a>
+ <a href="https://www.gnu.org/licenses/licenses.pt-br.html">HTML, CSS e JavaScript </a>
 
 
