@@ -44,7 +44,7 @@ Sim, nós desenvolvemos uma API que poderá ser consumida em qualquer aplicaçã
 O MapaJud foi desenvolvido pela equipe interdiciplinar orientada pelo desafio 2 do Hackathon Liods/CNJ envolvendos colaboradores da área juridica, desenvolvedores programação e da inteligência artificial.  Para acessa basta clicar em <a href="http://mapajud.pjexperience.com.br">MapaJud</a>
 
 ## Licenças
-Para o desenvolvimento desta aplicação utilizamos Python que é um software de código aberto bem como o Django.
+ O desenvolvimento do MapaJud utilizou em sua integralidade aplicação livre Open Source como  Python e Django.
 
 
 
