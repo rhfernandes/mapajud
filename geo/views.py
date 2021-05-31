@@ -423,7 +423,7 @@ class Mapa(TemplateView):
                         i+=1  
                 except:
                     historico="Sem Registro"
-                    print('Não tem Car')
+
                 context['historico']=historico 
                 mask_area_imovel=True
             else:
@@ -449,13 +449,16 @@ class Mapa(TemplateView):
             label.append("Floresta: "+forest)
             if geo_floresta['SireneJud'].values[0] is not None:
                 cores.append('#2F4F4F')
-                label.append("SireneJud: "+str(geo_floresta['SireneJud'].values[0]))        
-                datajud = get_list_or_404(DataJud,sirenejud=sirene)
-                i=1
-                for data in datajud:                            
-                    if data.sirenejud == sirene:
-                        historico+="Processo "+str(i)+"º : "+str(data.numero)+"\n"
-                        i+=1
+                label.append("SireneJud: "+str(geo_floresta['SireneJud'].values[0])) 
+                try:       
+                    datajud = get_list_or_404(DataJud,sirenejud=sirene)
+                    i=1
+                    for data in datajud:                            
+                        if data.sirenejud == sirene:
+                            historico+="Processo "+str(i)+"º : "+str(data.numero)+"\n"
+                            i+=1
+                except:
+                    historico="Sem registro"
                 context['historico']=historico 
             
         if mask_app:     
