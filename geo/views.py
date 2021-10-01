@@ -13,7 +13,7 @@ import pandas as pd
 import os
 import folium
 from .convert_pdf import read_pdf_to_txt
-from .busca_codigos import busca_sigef
+from .busca_codigos import busca_sigef  
 from geopandas.tools import sjoin
 
 pd.set_option('display.max_columns', None)
@@ -285,7 +285,6 @@ class Mapa(TemplateView):
             print(e)
         historico =""
         florestas = gp.read_file('data/Florestas/MT_floresta_SireneJud.shp')
-    
         municipios = gp.read_file('data/municipios/MT_Municipios_2020.shp')   
         sigef = gp.read_file('data/sigef/Sigef_Brasil_MT.shp')
         area_imovel = gp.read_file('data/area/CarSireneDiamantino.shp')
